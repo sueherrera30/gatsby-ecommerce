@@ -9,7 +9,7 @@ const Layout = ({ children }) => (
       <Content>
         <main>{children}</main>
         <Footer>
-          hecho con 💛 por 
+          hecho con <span role='img' aria-label='emoji'>💛</span> por 
           {` `}
           <a href="https://github.com/sueherrera30">sue Herrera</a>
         </Footer>

@@ -12,7 +12,7 @@ const Gracias = () => (
             </h2>
             <p>Espero este regalo haga muy feliz a tu ser querido</p>
             <p> recuerda... sigue dibujando sonrisas.</p>
-            <span rol='img' aria-label='emoji'>💛</span>
+            <span role='img' aria-label='emoji'>💛</span>
             <Link to='/'>
                 <Button>Volver al catálogo</Button>
             </Link>
