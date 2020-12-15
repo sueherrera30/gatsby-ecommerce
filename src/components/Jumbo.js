@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyledJumbo } from '../styles/components';
+import Image from './image';
 
 const Jumbo = ({ description, subtitle }) => {
     return (
@@ -8,6 +9,7 @@ const Jumbo = ({ description, subtitle }) => {
                 <h2>{description}</h2>
                 <small>{subtitle}</small>
             </div>
+            <Image name='icon' />
         </StyledJumbo>
     );
 };
